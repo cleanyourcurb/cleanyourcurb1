@@ -1,0 +1,27 @@
+body {
+	background-color:#000;
+}
+
+/*
+Table of Contents
+
+00 -- Basic Code
+01 -- Tablet Screen Size
+02 -- Phone Screen Size 
+*/
+
+/*Tablet Screen Size*/
+
+@media only screen and (max-width:1000px) {
+	body {
+		background-color:#008080;
+	}
+}
+
+/*Phone Screen Size*/
+
+@media only screen and (max-width:600px) {
+	body {
+		background-color:#ffd700;
+	}
+}

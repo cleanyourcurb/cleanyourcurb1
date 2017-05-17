@@ -1,0 +1,234 @@
+/* FONT Names
+
+                -RoundoReg
+                -RoundoBold
+                -RoundoLight
+                _RoundoSemiB
+                -Vtks
+                -Cabin
+                -CabinBold
+                -Meltix
+                -Rampung
+
+*/
+/* IMAGES END HERE */
+@font-face {
+    font-family: "Meltix";
+    src: url(fonts/Meltix.otf);
+}
+@font-face {
+    font-family: "Rampung";
+    src: url(fonts/Rampung.ttf);
+}
+@font-face {
+    font-family: "CabinBold";
+    src: url(fonts/CabinCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: "Cabin";
+    src: url(fonts/Cabin.ttf);
+}
+@font-face {
+    font-family: "Vtks";
+    src: url(fonts/vtks.ttf);
+}
+@font-face {
+    font-family: "RoundoReg";
+    src: url(fonts/Roundo-Regular.otf);
+}
+@font-face {
+    font-family: "RoundoL";
+    src: url(fonts/Roundo-Light.otf);
+}
+
+
+
+
+body{
+  margin: 0px;
+}
+
+
+
+
+/* TEXT STARTS HERE */
+h1 {
+    font-family: "RoundoReg";
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin: 0% 0 0 5%;
+}
+#beginner {
+    text-align: center;
+    font-size: 2.7em;
+    text-decoration: underline;
+    margin: 7% 0 0 5%;
+    
+}
+h2 {
+        text-align: center;
+        font-family: "RoundoL";
+        text-decoration: underline;
+    font-size: 2em;
+}
+p {
+    text-decoration: none;
+    font-family: "RoundoL";
+    font-size: 1.2em;
+    max-width: 1300px;
+    padding-bottom: 10px;
+    line-height: 40px;
+    margin: 0 7% 0 10%;
+}
+#purpose {
+    margin-left: 10%;
+    margin-right: 15%
+}
+li a {
+    display: block;
+    color: #41711C;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-family: "RoundoL";
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+/* TEXT ENDS HERE */
+
+
+
+
+
+
+/* NAVIGATION STARTS HERE */
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFF8 ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#drop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFF8;
+    text-align: center;
+    display: inline-block;
+}
+#navbar {
+    width: 100%;
+    height: auto;
+}
+li a:hover {
+    background-color: #EDEDE7;
+}
+/* NAVIGATION ENDS HERE */
+
+
+
+
+
+
+/* IMAGES START HERE */
+#stock {
+    float: right;
+}
+#trash {
+    float: left;
+    padding-right: 15px;
+    background-size: cover;
+}
+#driver {
+    float: right;
+    margin: 15px 15px 15px 15px;
+    height: auto;
+    width: 45%;
+}
+#cost {
+    float: left;
+    margin: 15px 15px 15px 15px;
+    height: auto;
+    width: 60%;
+}
+/*team photos*/
+#j {
+    float: left;
+}
+#t {
+    float: left;
+}
+#tquote {
+    font-family: "RoundoL";
+}
+/*end of team photos*/
+#bgimage {
+     max-width: 110%;
+    height: auto;
+    background-image: url(img/bgimage.jpg);
+    padding-bottom: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#problembg {
+     max-width: 110%;
+    height: auto;
+    background-image: url(img/problembg.jpg);
+    padding-bottom: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#fixbg {
+     max-width: 110%;
+    height: auto;
+    background-image: url(img/fixbg.jpg);
+    padding-bottom: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#ourteambg {
+     max-width: 110%;
+    height: auto;
+    background-image: url(img/ourteambg.jpg);
+    padding-bottom: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#right {
+    float: left;
+    padding-right: 40px;
+    line-height: 40px;
+    width: 60%;
+    height: auto;
+}
+/* IMAGES END HERE */
+
+
+/* _______________________________ */
+
+/*Tablet Screen Size*/
+
+@media only screen and (max-width:1000px) {
+    body{
+    max-width: 1680px;
+    margin-right: 3%;
+    margin-left: 3%;
+
+}
+/*PhabletScreen Size*/
+
+@media only screen and (max-width:798px) {
+body {
+        background-color:#ffd700;
+}
+
+/*Phone Screen Size*/
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color:#ffd700;
+    }
